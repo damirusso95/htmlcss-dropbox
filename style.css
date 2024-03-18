@@ -250,3 +250,31 @@ header{
 
 
 
+
+
+/* footer */
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    min-height: 400px;
+   padding-left: 20%;
+   padding-right: 20%;
+   padding-top: 3rem;
+}
+.footer-column{
+   width: calc(100% / 5);
+   background-color: palevioletred;
+   border: dashed 2px;
+}
+
+span{
+    display: block;
+    padding: 0.5rem;
+}
+
+
+
+
