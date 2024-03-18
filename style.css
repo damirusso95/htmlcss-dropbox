@@ -9,6 +9,11 @@ body {
    
 }
 
+.boxed {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 /* header */
 
 header{
@@ -35,3 +40,36 @@ header{
 .column-sx{
     width: 50%;
 }
+
+/* main */
+
+/* jumbo */
+.jumbo-container{
+    margin-top: 100px;
+    padding-top: 150px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+
+}
+
+.jumbo{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-testo-1{
+    width: 40%;
+    background-color: orange;
+    border: dashed 2px;
+}
+
+.box-img-1{
+    width: 60%;
+    background-color: yellow;
+    border: dashed 2px;
+}
+
+
