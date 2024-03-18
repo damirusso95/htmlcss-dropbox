@@ -14,6 +14,8 @@ body {
     max-width: 1200px;
 }
 
+
+
 /* header */
 
 header{
@@ -47,8 +49,6 @@ header{
 .jumbo-container{
     margin-top: 100px;
     padding-top: 150px;
-    padding-left: 20%;
-    padding-right: 20%;
     background-color: blue;
     width: 100%;
     height: 400px;
@@ -70,6 +70,59 @@ header{
     width: 60%;
     background-color: yellow;
     border: dashed 2px;
+}
+
+/* sezione 2 */
+.piano{
+    background-color: blueviolet;
+    border: dashed 2px;
+}
+
+.card-container{
+    display: flex;
+    background-color: orangered;
+    border: dashed 2px;
+    flex-direction: row;
+    justify-content:space-around;
+    min-height: 300px;
+    
+}
+
+.card{
+    width: calc(100% / 3);
+    background-color: aqua;
+    text-align: center;
+    border: dashed 2px;
+}
+
+.team{
+    background-color: violet;
+    border: dashed 2px;
+    min-height: 200px;
+
+}
+
+.team-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.bottone{
+    width: 40%;
+    min-height: 150px;
+    background-color: orangered;
+    border: dashed 2px;
+
+}
+
+.testo-card{
+    width: 60%;
+    min-height: 150px;
+    background-color: pink;
+    border: dashed 2px;
+
 }
 
 
