@@ -14,6 +14,10 @@ body {
     max-width: 1200px;
 }
 
+h2{
+    text-align: center;
+}
+
 
 
 /* header */
@@ -149,6 +153,29 @@ header{
     min-height: 200px;
     border: dashed 2px;
 
+}
+
+/* sezione 4 */
+
+.sezione-4{
+    padding: 3rem;
+}
+
+.container-cards-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards{
+    background-color: pink;
+    border: dashed 2px;
+    padding: 1.5rem;
+    width: calc(100% / 3);
+    min-height: 300px;
+    text-align: center;
+    
 }
 
 
