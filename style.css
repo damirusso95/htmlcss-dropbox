@@ -8,3 +8,30 @@ body {
     font-family: sans-serif;
    
 }
+
+/* header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    padding: 1rem;
+    border: dashed 2px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.column-dx{
+    width: 50%;
+    text-align: end;
+}
+
+.column-sx{
+    width: 50%;
+}
