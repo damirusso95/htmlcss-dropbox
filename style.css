@@ -247,6 +247,21 @@ header{
     border: dashed 2px;
 }
 
+/* sezione 6 */
+.sezione-6{
+    background-color: lightgrey;
+    margin-top: 3rem;
+
+}
+
+.fq-container{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 
 
