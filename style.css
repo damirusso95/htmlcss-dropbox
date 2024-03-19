@@ -64,6 +64,7 @@ a{padding: 1rem;
     padding-top: 150px;
     background-color: #B4D0E7;
     width: 100%;
+    max-height: 700px;
 }
 
 .jumbo{
@@ -82,8 +83,9 @@ a{padding: 1rem;
 
 .box-img-1{
     width: 60%;
-    background-color: yellow;
-    border: dashed 2px;
+}
+.img-jumbo{
+    width: 100%;
 }
 
 h1{
@@ -92,26 +94,90 @@ h1{
 }
 
 /* sezione 2 */
+
+.section-2{
+    padding-top: 7rem;
+
+}
+
+.cerchio{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 3px blue;
+}
+
+.cerchio-vuoto{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 2rem;
+    border-radius: 50%;
+    border: solid 3px lightgrey;
+}
+
+.pieno,.vuoto{
+    display: inline-block;
+}
+
 .piano{
-    background-color: blueviolet;
-    border: dashed 2px;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 35px;
+    padding: 2rem 0;
 }
 
 .card-container{
     display: flex;
-    background-color: orangered;
-    border: dashed 2px;
     flex-direction: row;
-    justify-content:space-around;
-    min-height: 300px;
+    justify-content:space-between;
+    min-height: 500px;
     
 }
 
 .card{
-    width: calc(100% / 3);
-    background-color: aqua;
+    width: calc(100% / 3 - 5rem);
+    text-align:left;
+    border: solid 1px lightgray;
+}
+
+.card-type{
+   
+    border-bottom:solid 1px lightgray;
     text-align: center;
-    border: dashed 2px;
+    padding: 0.5rem;
+}
+
+p{
+    padding: 0.5rem;
+}
+
+.buy{
+    text-decoration: underline;
+    color: blue;
+    padding: 0;
+
+}
+
+.bold{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.prova{
+    padding: 1.5rem;
+}
+
+.btn-free-trial{
+    margin: 2rem 0.5rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: #0061FF;
+    color: white;
+
 }
 
 .team{
@@ -301,8 +367,7 @@ h1{
 }
 
 span{
-    display: block;
-    padding: 0.5rem;
+    display: inline-block;
 }
 
 
