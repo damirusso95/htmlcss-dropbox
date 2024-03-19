@@ -84,7 +84,7 @@ a{padding: 1rem;
 .box-img-1{
     width: 60%;
 }
-.img-jumbo{
+.img-jumbo,.img-part{
     width: 100%;
 }
 
@@ -180,11 +180,17 @@ p{
 
 }
 
-.team{
-    background-color: violet;
-    border: dashed 2px;
-    min-height: 200px;
+.bottom-card{
+    margin: 2rem 0;   
+    border: solid 1px lightgray;
+    
 
+}
+
+.team{
+    text-align: center;
+    padding: 0.5rem 0;
+    border: solid 1px lightgray;
 }
 
 .team-flex{
@@ -196,23 +202,19 @@ p{
 
 .bottone{
     width: 40%;
-    min-height: 150px;
-    background-color: orangered;
-    border: dashed 2px;
+    text-align: end;
 
 }
 
 .testo-card{
     width: 60%;
-    min-height: 150px;
-    background-color: pink;
-    border: dashed 2px;
+    
 
 }
 /* sezione 3 */
 
 .sezione-3{
-    background-color: lightgray;
+    
     padding: 3rem;
 }
 .container-3{
@@ -221,18 +223,28 @@ p{
 }
 
 .box-img-2{
-    background-color: blueviolet;
     width: 60%;
-    min-height: 200px;
-    border: dashed 2px;
-
 }
 
 .box-testo-2{
-    background-color: lightblue;
+
     width: 40%;
-    min-height: 200px;
-    border: dashed 2px;
+    padding: 4rem 10rem 2rem 2rem;
+
+}
+
+.testo-2{
+    margin-left: 0.5rem;
+    text-align: left;
+}
+
+.btn-partner{
+    padding: 0.6rem 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    border: solid 1px black;
+    color: black;
 
 }
 
