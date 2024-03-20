@@ -441,17 +441,29 @@ p{
 
 /* sezione 6 */
 .sezione-6{
-    background-color: lightgrey;
     margin-top: 3rem;
 
 }
+.hr-fq{
+    width: 100%;
+    color: lightgrey;
+    margin: 0;
+}
 
 .fq-container{
-    padding-left: 20%;
-    padding-right: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 4rem 0;
+}
+.hover-fq{
+    display: none;
+}
+
+.fq:hover .hover-fq{
+    display: block;
 }
 
 
@@ -480,7 +492,6 @@ p{
 span{
     display: inline-block;
 }
-
 
 
 
