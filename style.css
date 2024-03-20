@@ -495,7 +495,13 @@ p{
 .fq:hover .hover-fq{
     display: block;
 }
+ .p-fq{
+    display: inline-block;
+ }
 
+ .fa-chevron-down{
+    padding-left: 22rem;
+ }
 
 
 
