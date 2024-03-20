@@ -20,6 +20,25 @@ hr{
     margin-left: 2rem;
 }
 
+a{
+    position: relative;
+}
+
+a::after{
+    content: "";
+    position: absolute;
+    background-color:#0061FF;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom:0;
+    transition: 0.3s;
+
+}
+
+a:hover:after{
+    width: 100%;
+}
 
 
 .btn-blu{
@@ -41,7 +60,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     background-color: white;
     color: rgb(0, 0, 0);
     width: 100%;
@@ -86,7 +105,7 @@ a{padding: 1rem;
 }
 
 .btn-jumbo{
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
 }
 
 .box-img-1{
@@ -322,6 +341,10 @@ p{
     filter: invert(1);
 }
 
+.p-designit{
+    padding: 2rem;
+}
+
 .column-1{
     display: flex;
     flex-direction: row;
@@ -368,6 +391,7 @@ p{
     height:50%;
     padding: 2rem;
 }
+
 
 .column-img-2{
     background-color: #61082B;
